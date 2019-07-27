@@ -1,123 +1,76 @@
 ---
 layout: post
-title: Example content
+title: A mixed numerical system for minimal sum of each bit
 tags:
-  - jekyll
-  - dactl
+  - numerical system
+  - diophantine equation
 description: >
   Howdy! This is an example blog post that shows several types of HTML content
   supported in this theme.
 hero: https://source.unsplash.com/collection/145103/
-overlay: green
+overlay: blue
 published: true
 ---
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-{: .lead}
+# Problem statement
+The monetary system in Absurdistan is really simple and systematic.
+The locals only use coins.The coins come in different values.
+The values used are:  
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-<!–-break-–>
+$$  1, 10, 25, 100, 1000, 2500, 10000, 100000, 250000, 1000000, ... $$  
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+Formally, for each $$k \geq 0$$ there are coins worth $$10 k$$, and coins worth $$2500 k$$.
+You want to buy a new car. Its price varies.
+Assuming you have a sufficient supply of coins of each of the types you will need.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-{: .notice}
-
-## Inline HTML elements
-
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-
-- **To bold text**, use `**To bold text**`.
-- *To italicize text*, use `*To italicize text*`.
-- Abbreviations, like HTML should be defined like this `*[HTML]: HyperText Markup Language`.
-- Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
-- ~~Deleted~~ text should use `~~deleted~~` and <ins>inserted</ins> text should use `<ins>`.
-- Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`[^1].
-
-Most of these elements are styled by browsers with few modifications on our part.
-
-## Heading
-
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-## Code
-
-Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
-
-~~~js
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those
-// arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-~~~
-
-## Lists
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-
-* Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-* Donec id elit non mi porta gravida at eget metus.
-* Nulla vitae elit libero, a pharetra augue.
-
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-
-1. Vestibulum id ligula porta felis euismod semper.
-2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
-
-HyperText Markup Language (HTML)
-: The language used to describe and define the content of a Web page
-
-Cascading Style Sheets (CSS)
-: Used to describe the appearance of Web content
-
-JavaScript (JS)
-: The programming language used to build advanced Web sites and applications
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
-{: .notice-alert}
-
-## Images
-
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
-
-![1200x700](http://placehold.it/1200x700 "Large example image"){:.oversize}
-![800x400](http://placehold.it/800x400 "Large example image"){:.lead}
-![400x200](http://placehold.it/400x200 "Medium example image")
-![200x200](http://placehold.it/200x200 "Small example image")
-
-## Tables
-
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-| Name     | Upvotes   | Downvotes |
-|----------|-----------|-----------|
-| Alice    |        10 |        11 |
-| Bob      |         4 |         3 |
-| Charlie  |         7 |         9 |
-|Totals    |        21 |        23 |
-
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-## Math
+# Question
+Output the smallest number of coins necessary to pay exactly the cost of the car.
 
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-Nullam id [^2] dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+I came across this problem in a websit called [codechef][codechef] which, personly I think, is a very good 
+site. As simple it is the first sight, it may of interest to those who love mathematics and programming including
+me, thus this page is born. 
 
-[^1]: You can insert footnote marks using `[^1]`, `[^2]`, etc and write the footnote text at the bottom of your file like this: `[^1]: You can also insert footnote marks...`
+Let's start with the very basic ideal that the numerical denotation of natrual number, for a $$p-$$adic number $$(x)_p$$
 
-[^2]: Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+$$
+\label{basic}
+\begin{equation}
+(x)_p = \Sigma _{i=0} ^n  a_i p^i.
+\end{equation}
+$$
 
-*[HTML]: HyperText Markup Language
-*[CSS]: Cascading Style Sheets
-*[JS]: JavaScript
+where $$ 0 \leq a_i \leq p-1 $$, and $$n$$ is finite.  
+With formula $$\eqref{basic}$$ we could assign each number a unique numeric denotation accordingly. Furthermore  
+
+$$\space$$ 
+ 
+$$ \textbf{Theorem 1} \label{theorem1}$$: $$  \Sigma _{i=0} ^n  a_i$$  reach  its  minimal for $$x$$ in p-adic system.
+
+$$\space$$  
+
+I will leave the proof to you. (Hint: we can proof it by contradiction.)  
+So after so much time we spend to what degree the problem relates to it?   
+What if we let $$p=100$$ and take $$  1, 10, 25 $$ out as a numerical system that 
+  
+$$
+\begin{equation}
+(x)_{100} = \Sigma _{i=0} ^{n'}  b_i 100^i.
+\end{equation}
+$$
+
+where $$ 0 \leq b_i \leq 99, b_i = u_i 25 + v_i 10 + w_i $$.  
+Owing to unique denotation of each number the question will be answered if and only if 
+
+$$
+\label{con}
+\begin{equation}
+\Sigma _{i=1} ^{n'} u_i  + v_i  + w_i
+\end{equation}
+$$ 
+
+reacher its minimal value. Therefore we got to write an programm to check all the number from 1 to 100, what 
+compromises almost work we have to do.  
+
+
+[codechef]:    https://www.codechef.com/problems/FR11
