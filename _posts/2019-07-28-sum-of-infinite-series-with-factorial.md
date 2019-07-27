@@ -16,7 +16,7 @@ published: true
 
 $$
 \begin{equation*}
-\Sigma _{n=1} ^{ \infty } \frac{n+2}{n!+(n+1)!+(n+2)!}
+\sum _{n=1} ^{ \infty } \frac{n+2}{n!+(n+1)!+(n+2)!}
 \end{equation*}
 $$
 
@@ -24,7 +24,7 @@ $$
 
 Have you ever come across the infinite sum such as  
 
-$$ \Sigma _{n=1} ^{ \infty } \frac{1}{(n-1)! (n+1)} \,\, \text{or} \,\, \Sigma _{n=1} ^{ \infty } \frac{1}{(n-1)! + n! }$$
+$$ \sum _{n=1} ^{ \infty } \frac{1}{(n-1)! (n+1)} \,\, \text{or} \,\, \sum _{n=1} ^{ \infty } \frac{1}{(n-1)! + n! }$$
 
 the trick lies in that  
 
@@ -38,12 +38,12 @@ $$
 This question is the extention of formula $$\ref{trick}$$, since  
 
 $$
-\label{tric} 
+\label{trick0} 
 \begin{equation}
 \frac{ n+2 }{ n!+(n+1)!+(n+2)! } = \frac{n+2}{n!( 1+ n+1 (n+1) (n+2) ) } = \frac{1}{n!(n+2)}   
 \end{equation}
 $$
 
 
-Now we can handle it with ease combing formula $$\ref{trick}$$ and $$\ref{tric}$$. I will leave the rest 
+Now we can handle it with ease combing formula $$\ref{trick}$$ and $$\ref{trick0}$$. I will leave the rest 
 proof to you. (If you get $$\frac{1}{2}$$ congratulations, if not, one more try.)
