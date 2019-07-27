@@ -1,13 +1,15 @@
 # Base blog settings
-baseurl                      : "/test" # the subpath of your site,                         # e.g. /blog/
+baseurl                      : "/programming" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
 url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : Dock of Programming
   description                  : >
-                               this should contain a proper description
+                                 Welcome to Dockpro! Here is the place for Mathematics and Programming covering
+                                 mathematical analysis and algorithmical programming. We are glad to see it may 
+                                 of some help to somebody, Don not hesitate to cantact me if you have any problem.
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -28,12 +30,12 @@ blog:
 author:
   fullname                  : dockpro
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
+  mail                      : bruceyytsh@outlook.com # change to your e-mail address
   twitter                   : dockpro
   github                    : dockpro
-  youtube                   : youtube-user-name
-  stackoverflow             : stackoverflow-user-name
-  disqus                    : dactl # your disqus site name
+  youtube                   : dockpro
+ # stackoverflow             : stackoverflow-user-name
+ # disqus                    : dactl # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/me2.png"
   photo2x                   : "uploads/me.png"
