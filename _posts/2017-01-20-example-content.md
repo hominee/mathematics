@@ -26,6 +26,7 @@ Assuming you have a sufficient supply of coins of each of the types you will nee
 # Question
 Output the smallest number of coins necessary to pay exactly the cost of the car.
 
+<!–-break-–>
 
 I came across this problem in a websit called [codechef][codechef] which, personly I think, is a very good 
 site. As simple it is the first sight, it may of interest to those who love mathematics and programming including
