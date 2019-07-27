@@ -38,11 +38,12 @@ $$
 This question is the extention of formula $$\ref{trick}$$, since  
 
 $$
-\label{trick2}
+\label{trick}
 \begin{equation}
 \frac{n+2}{n!+(n+1)!+(n+2)! = \frac{n+2}{n!( 1+ n+1 (n+1) (n+2) ) } = \frac{1}{n!(n+2)} 
 \end{equation}
 $$
 
-Now we can handle it with ease combing formula $$\ref{trick}$$ and $$\ref{trick2}$$. I will leave the rest 
+
+Now we can handle it with ease combing formula $$\ref{trick}$$ and $$\ref{trick}$$. I will leave the rest 
 proof to you. (If you get $$\frac{1}{2}$$ congratulations, if not, one more try.)
