@@ -29,8 +29,8 @@ $$ \Sigma _{n=1} ^{ \infty } \frac{1}{(n-1)! (n+1)} \,\, \text{or} \,\, \Sigma _
 the trick lies in that  
 
 $$
-\label{trick}
-\begin{equation} 
+\label{trick}  
+\begin{equation}
 \frac{1}{(n-1)! (n+1)} = \frac{n}{(n+1)!} = \frac{n+1 - 1}{(n+1)!} = (n!)^{-1} - (n+1)!^{-1}
 \end{equation}
 $$
@@ -38,9 +38,9 @@ $$
 This question is the extention of formula $$\ref{trick}$$, since  
 
 $$
-\label{tric}
+\label{tric} 
 \begin{equation}
-\frac{n+2}{n!+(n+1)!+(n+2)! = \frac{n+2}{n!( 1+ n+1 (n+1) (n+2) ) } = \frac{1}{n!(n+2)} 
+\frac{ n+2 }{ n!+(n+1)!+(n+2)! } = \frac{n+2}{n!( 1+ n+1 (n+1) (n+2) ) } = \frac{1}{n!(n+2)}   
 \end{equation}
 $$
 
