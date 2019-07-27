@@ -16,7 +16,7 @@ published: true
 
 $$
 \begin{equation*}
-\Sigma _{n=1} ^{\inf} \frac{n+2}{n!+(n+1)!+(n+2)!}
+\Sigma _{n=1} ^{ \infty } \frac{n+2}{n!+(n+1)!+(n+2)!}
 \end{equation*}
 $$
 
@@ -24,7 +24,7 @@ $$
 
 Have you ever come across the infinite sum such as  
 
-$$ \Sigma _{n=1} ^{inf} \frac{1}{(n-1)! (n+1)} \,\, \text{or} \,\, \Sigma _{n=1} ^{inf} \frac{1}{(n-1)! + n! }$$
+$$ \Sigma _{n=1} ^{ \infty } \frac{1}{(n-1)! (n+1)} \,\, \text{or} \,\, \Sigma _{n=1} ^{ \infty } \frac{1}{(n-1)! + n! }$$
 
 the trick lies in that  
 
@@ -40,7 +40,7 @@ This question is the extention of formula $$\ref{trick}$$, since
 $$
 \label{trick2}
 \begin{equation}
-\frac{n+2}{n!+(n+1)!+(n+2)! = \frac{n+2}{n![1+ n+1 (n+1)(n+2)]} = \frac{1}{n!(n+2)} 
+\frac{n+2}{n!+(n+1)!+(n+2)! = \frac{n+2}{n!( 1+ n+1 (n+1) (n+2) ) } = \frac{1}{n!(n+2)} 
 \end{equation}
 $$
 
