@@ -7,8 +7,8 @@ url                          : "" # the base hostname & protocol for your site
 blog:
   title                      : Dock of Programming
   description                : Welcome to Dockpro! Here is the place for Mathematics and Programming covering
-                                 mathematical analysis and algorithmical programming. We are glad to see it may 
-                                 of some help to somebody, Don not hesitate to cantact me if you have any problem.
+                               mathematical analysis and algorithmical programming. We are glad to see it may 
+                               of some help to somebody, Don not hesitate to cantact me if you have any problem.
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -29,15 +29,15 @@ blog:
 author:
   fullname                  : dockpro
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : bruceyytsh@outlook.com # change to your e-mail address
+ # mail                      : bruceyytsh@outlook.com # change to your e-mail address
   twitter                   : dockpro
   github                    : dockpro
   youtube                   : dockpro
  # stackoverflow             : stackoverflow-user-name
  # disqus                    : dactl # your disqus site name
-  google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/me2.png"
-  photo2x                   : "uploads/me.png"
+ # google_analytics          : # 'UA-XXXXXXXX-X'
+  photo                     : "uploads/postname.jpg"
+  photo2x                   : "uploads/postname.jpg"
 
 
 
@@ -57,7 +57,7 @@ permalink                    : posts/:slug
 excerpt_separator            : <!–-break-–>
 
 # Pagination
-paginate                     : 5
+paginate                     : 7
 paginate_path                : '/page-:num/'
 
 # Tags
