@@ -1,0 +1,4 @@
+---
+slug: fractorial
+name: fractorial
+---
