@@ -16,6 +16,7 @@ overlay: blue
 published: true
 ---
 
+
 # Question
 
 $$
@@ -40,18 +41,18 @@ $$
 
 where $$ \epsilon _n $$ is small.  
 
-Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, the question may take on good properties as  
+Let $$ k = i+j $$ be a fixed number combined with equation $$\eqref{harmonic}$$, the question may take on good properties as  
 
 $$ 
 \begin{equation}
 \begin{aligned}
-\label{new}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } \frac{ (-1)^{ k }}{ k } (k-1) \\
 & = \sum _{k=2} ^{ \infty } (1 - k^{-1}) (-1)^{k} \\
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k}
 \end{aligned} 
-\end{equation} 
+\end{equation}
+\label{new}
 $$
 
 Recall that the taylor expansion of $$ \ln(2) $$ at point $$ x = 0 $$, 
