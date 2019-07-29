@@ -44,12 +44,14 @@ Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, t
 
 $$ 
 \label{newform}
+\begin{equation}
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } \frac{ (-1)^{ k }}{ k } (k-1) \\
 & = \sum _{k=2} ^{ \infty } (1 - k^{-1}) (-1)^{k} \\
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k}
-\end{aligned}  
+\end{aligned} 
+\end{equation} 
 $$
 
 Recall that the taylor expansion of $$ \ln(2) $$ at point $$ x = 0 $$, 
