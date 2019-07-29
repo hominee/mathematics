@@ -49,7 +49,7 @@ $$
 & = \sum _{k=2} ^{ \infty } (1 - k^{-1}) (-1)^{k} \\
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k}
 \end{aligned}  
-\label{ eq1 }
+\label{ newform }
 $$
 
 Recall that the taylor expansion of $$ \ln(2) $$ at point $$ x = 0 $$, 
@@ -58,10 +58,10 @@ $$
 \begin{equation}
 \ln(2)  = \sum _{k=1} ^{ \infty } \frac{ (-1)^{k-1} }{ k } = 1 - 2^{-1} + 3^{-1} - ...
 \end{equation}
-\label{eq2}
+\label{sub}
 $$
 
-with formula $$ \eqref{eq1} $$ and $$ \eqref{ eq2 } $$ one can deduce that 
+with formula $$ \ref{newform} $$ and $$ \ref{ sub } $$ one can deduce that 
 
 $$ 
 \begin{aligned}
@@ -69,11 +69,11 @@ $$
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k} \\
 & = \ln(2) - 1 + \frac{(-1)^k + 1}{2}
 \end{aligned}  
-\label{eq3}
+\label{result}
 $$
 
 you will gets a degrade if you think we are done with an answer $$ \ln(2) - \frac{1}{2}  $$, the 
-way the original problem converge to the limit is not that we reshape in formula $$ \eqref{ eq1 } $$ , 
+way the original problem converge to the limit is not that we reshape in formula $$ \ref{ newform } $$ , 
 
 $$
 \begin{matrix}
@@ -84,7 +84,7 @@ $$
 \end{matrix}
 $$
 
-$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{ eq1 } $$ approaches it via 
+$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \ref{ newform } $$ approaches it via 
 secondary diagonal. So what is the right way to tickle it what is the second part of topic,
 
 
