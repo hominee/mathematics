@@ -43,9 +43,9 @@ where $$ \epsilon _n $$ is small.
 Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, the question may take on good properties as  
 
 $$ 
-\label{new}
 \begin{equation}
 \begin{aligned}
+\label{new}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } \frac{ (-1)^{ k }}{ k } (k-1) \\
 & = \sum _{k=2} ^{ \infty } (1 - k^{-1}) (-1)^{k} \\
