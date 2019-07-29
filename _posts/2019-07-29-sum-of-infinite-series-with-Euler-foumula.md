@@ -43,7 +43,7 @@ where $$ \epsilon _n $$ is small.
 Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, the question may take on good properties as  
 
 $$ 
-\label{newform}
+\label{new}
 \begin{equation}
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
@@ -63,7 +63,7 @@ $$
 \end{equation}
 $$
 
-with formula $$ \eqref{newform} $$ and $$ \eqref{sub} $$ one can deduce that 
+with formula $$ \eqref{new} $$ and $$ \eqref{sub} $$ one can deduce that 
 
 $$ 
 \label{result}
@@ -76,8 +76,8 @@ $$
 \end{equation}  
 $$
 
-you will gets a degrade if you think we are done with an answer $$ \ln(2) - \frac{1}{2}  $$, the 
-way the original problem converge to the limit is not that we reshape in formula $$ \eqref{newform} $$ , 
+you will gets a degrade if you think we are done with an answer $$ \ln(2) - \frac{1}{2} $$ even though it is, the 
+way the original problem converge to the limit is not that we reshape in formula $$ \eqref{new} $$ , 
 
 $$
 \begin{matrix}
@@ -88,8 +88,8 @@ $$
 \end{matrix}
 $$
 
-$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{newform} $$ approaches it via 
-secondary diagonal. So what is the right way to tickle it what is the second part of topic,
+$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{new} $$ approaches it via 
+secondary diagonal. So what is the right way to tickle it will be the second part of the topic.
 
 
 # Answer
