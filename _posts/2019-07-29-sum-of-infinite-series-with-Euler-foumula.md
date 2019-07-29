@@ -38,12 +38,12 @@ H_{ n } = \sum _{ i=n } ^{n} \frac{1}{ i } = \gamma + \ln(n) + \epsilon_{n}
 \end{equation}
 $$
 
-where $$ \epsilon $$ is small.  
+where $$ \epsilon _n $$ is small.  
 
 Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, the question may take on good properties as  
 
 $$ 
-\label{eq1}
+\label{ eq1 }
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } \frac{ (-1)^{ k }}{ k } (k-1) \\
@@ -57,11 +57,11 @@ Recall that the taylor expansion of $$ \ln(2) $$ at point $$ x = 0 $$,
 $$
 \label{eq2}
 \begin{equation}
-\ln(2)  = \sum _{k=1} ^{ \infty } \frac{ (-1)^{k-1} }{ k } = 1 - 2^{-1} + 3^(-1) - ...
+\ln(2)  = \sum _{k=1} ^{ \infty } \frac{ (-1)^{k-1} }{ k } = 1 - 2^{-1} + 3^{-1} - ...
 \end{equation}
 $$
 
-with formula $$\ref{eq1}$$ and $$ref{eq2}$$ one can deduce that 
+with formula $$ \eqref{eq1} $$ and $$ \eqref{ eq2 } $$ one can deduce that 
 
 $$ 
 \label{eq3}
@@ -73,14 +73,18 @@ $$
 $$
 
 you will gets a degrade if you think we are done with an answer $$ \ln(2) - \frac{1}{2}  $$, the 
-way the original problem converge to the limit is not that we reshape in formula $$ \ref{eq1} $$, 
+way the original problem converge to the limit is not that we reshape in formula $$ \eqref{ eq1 } $$ , 
 
-|  2^(-1) |  3^{-1} |  4^{-1} |  ...|
-|  3^(-1) |  4^{-1} |  5^{-1} |  ...|
-|  4^(-1) |  5^{-1} |  6^{-1} |  ...|
-|  ...    |  ...    |  ...    |  ...|
+$$
+\begin{matrix}
+  2^(-1) &  3^{-1} &  4^{-1} &  ...\\
+  3^(-1) &  4^{-1} &  5^{-1} &  ...\\
+  4^(-1) &  5^{-1} &  6^{-1} &  ...\\
+  ...    &  ...    &  ...    &  ...\\
+\end{matrix}
+$$
 
-$$\ref{harmonic}$$ converge by the infinite sum of each row, whereas $$\ref{eq1}$$ approaches it via 
+$$\ref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{ eq1 } $$ approaches it via 
 secondary diagonal. So what is the right way to tickle it what is the second part of topic,
 
 
