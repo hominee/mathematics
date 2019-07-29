@@ -43,37 +43,39 @@ where $$ \epsilon _n $$ is small.
 Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, the question may take on good properties as  
 
 $$ 
+\label{newform}
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } \frac{ (-1)^{ k }}{ k } (k-1) \\
 & = \sum _{k=2} ^{ \infty } (1 - k^{-1}) (-1)^{k} \\
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k}
 \end{aligned}  
-\label{ newform }
 $$
 
 Recall that the taylor expansion of $$ \ln(2) $$ at point $$ x = 0 $$, 
 
 $$
+\label{sub}
 \begin{equation}
 \ln(2)  = \sum _{k=1} ^{ \infty } \frac{ (-1)^{k-1} }{ k } = 1 - 2^{-1} + 3^{-1} - ...
 \end{equation}
-\label{sub}
 $$
 
-with formula $$ \ref{newform} $$ and $$ \ref{ sub } $$ one can deduce that 
+with formula $$ \eqref{newform} $$ and $$ \eqref{sub} $$ one can deduce that 
 
 $$ 
+\label{result}
+\begin{equation}
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k} \\
 & = \ln(2) - 1 + \frac{(-1)^k + 1}{2}
-\end{aligned}  
-\label{result}
+\end{aligned}
+\end{equation}  
 $$
 
 you will gets a degrade if you think we are done with an answer $$ \ln(2) - \frac{1}{2}  $$, the 
-way the original problem converge to the limit is not that we reshape in formula $$ \ref{ newform } $$ , 
+way the original problem converge to the limit is not that we reshape in formula $$ \eqref{newform} $$ , 
 
 $$
 \begin{matrix}
@@ -84,7 +86,7 @@ $$
 \end{matrix}
 $$
 
-$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \ref{ newform } $$ approaches it via 
+$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{newform} $$ approaches it via 
 secondary diagonal. So what is the right way to tickle it what is the second part of topic,
 
 
