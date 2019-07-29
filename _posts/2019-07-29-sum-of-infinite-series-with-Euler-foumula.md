@@ -31,11 +31,11 @@ easily. The most intuitive ideals we can think, in my opinion, are harmonic numb
 
 This was a good question that connect harmonic numbers and integral. We know that 
 
-$$
-\label{harmonic}  
+$$  
 \begin{equation}
 H_{ n } = \sum _{ i=n } ^{n} \frac{1}{ i } = \gamma + \ln(n) + \epsilon_{n}
 \end{equation}
+\label{harmonic}
 $$
 
 where $$ \epsilon _n $$ is small.  
@@ -43,33 +43,33 @@ where $$ \epsilon _n $$ is small.
 Let $$ k = i+j $$ be a fixed number combined with equation $$\ref{harmonic}$$, the question may take on good properties as  
 
 $$ 
-\label{ eq1 }
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } \frac{ (-1)^{ k }}{ k } (k-1) \\
 & = \sum _{k=2} ^{ \infty } (1 - k^{-1}) (-1)^{k} \\
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k}
 \end{aligned}  
+\label{ eq1 }
 $$
 
 Recall that the taylor expansion of $$ \ln(2) $$ at point $$ x = 0 $$, 
 
 $$
-\label{eq2}
 \begin{equation}
 \ln(2)  = \sum _{k=1} ^{ \infty } \frac{ (-1)^{k-1} }{ k } = 1 - 2^{-1} + 3^{-1} - ...
 \end{equation}
+\label{eq2}
 $$
 
 with formula $$ \eqref{eq1} $$ and $$ \eqref{ eq2 } $$ one can deduce that 
 
 $$ 
-\label{eq3}
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 
 & = \sum _{k=2} ^{ \infty } k^{-1} (-1)^{k-1} + (-1)^{k} \\
 & = \ln(2) - 1 + \frac{(-1)^k + 1}{2}
 \end{aligned}  
+\label{eq3}
 $$
 
 you will gets a degrade if you think we are done with an answer $$ \ln(2) - \frac{1}{2}  $$, the 
@@ -77,14 +77,14 @@ way the original problem converge to the limit is not that we reshape in formula
 
 $$
 \begin{matrix}
-  2^(-1) &  3^{-1} &  4^{-1} &  ...\\
-  3^(-1) &  4^{-1} &  5^{-1} &  ...\\
-  4^(-1) &  5^{-1} &  6^{-1} &  ...\\
+  2^{-1} &  3^{-1} &  4^{-1} &  ...\\
+  3^{-1} &  4^{-1} &  5^{-1} &  ...\\
+  4^{-1} &  5^{-1} &  6^{-1} &  ...\\
   ...    &  ...    &  ...    &  ...\\
 \end{matrix}
 $$
 
-$$\ref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{ eq1 } $$ approaches it via 
+$$ \eqref{harmonic}$$ converge by the infinite sum of each row, whereas $$ \eqref{ eq1 } $$ approaches it via 
 secondary diagonal. So what is the right way to tickle it what is the second part of topic,
 
 
