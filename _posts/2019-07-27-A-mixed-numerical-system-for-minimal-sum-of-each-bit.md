@@ -5,8 +5,8 @@ tags:
   - numerical system
   - diophantine equation
 description: >
-  #Howdy! This is an example blog post that shows several types of HTML content
-  #supported in this theme.
+  A mixed numerical system for minimal sum of each bit
+
 hero: https://source.unsplash.com/collection/145103/
 overlay: blue
 published: true
@@ -19,7 +19,7 @@ The values used are:
 
 $$  1, 10, 25, 100, 1000, 2500, 10000, 100000, 250000, 1000000, ... $$  
 
-Formally, for each $$k \geq 0$$ there are coins worth $$10 k$$, and coins worth $$2500 k$$.
+Formally, for each $$k \geq 0$$ there are coins worth $$10 k$$, and coins worth $$25 k$$.
 You want to buy a new car. Its price varies.
 Assuming you have a sufficient supply of coins of each of the types you will need.
 
