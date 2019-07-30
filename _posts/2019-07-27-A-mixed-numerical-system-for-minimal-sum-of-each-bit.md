@@ -3,7 +3,8 @@ layout: post
 title: A mixed numerical system for minimal sum of each bit
 tags:
   - numerical system
-  - diophantine equation
+  - minimal sum
+  - p-adic
 description: >
   A mixed numerical system for minimal sum of each bit
 
