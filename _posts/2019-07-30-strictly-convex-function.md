@@ -34,7 +34,7 @@ show that $$f(x)$$ is strictly convex function or strictly concave function.
 
 # Answer
 
-This is an application of [Rolle's theorem][https://en.wikipedia.org/wiki/Rolle%27s_theorem], we could proof it 
+This is an application of $$\href{https://en.wikipedia.org/wiki/Rolle%27s_theorem}{Rolle's theorem}$$, we could proof it 
 by controdiction, 
 
 If not, there exist at least two points $$z_1 \neq z_2$$ such that 
@@ -50,4 +50,3 @@ f''(z)  = \frac{f'(z_1) - f'(z_2)}{z_1 - z_2} =  0
 $$
 
 which controdicte the definition that $$f''(x) \neq 0$$.
-
