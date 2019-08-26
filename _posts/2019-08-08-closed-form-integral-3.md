@@ -23,7 +23,7 @@ $$
 = -\frac1{\alpha^s}\frac{\pi}{\sin(\pi \alpha)}
 $$
 
-<!–-break-–!>
+<!–-break-–>
 
 # Answer
 
