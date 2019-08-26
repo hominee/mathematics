@@ -22,7 +22,7 @@ $$
  \int\limits_0^1 [\log(x)\log(1-x)+\operatorname{Li}_2(x)]\left[\frac{\operatorname{Li}_2(x)}{x(1-x)}-\frac{\zeta(2)}{1-x}\right]\mathrm dx
 $$
 
-<!–-break-– 
+<!–-break-–!>
 
 $$\mathfrak{I}=\int\limits_0^1 \left[\log(x)\log(1-x)+\operatorname{Li}_2(x)\right]\left[\frac{\operatorname{Li}_2(x)}{x(1-x)}-\frac{\zeta(2)}{1-x}\right]\mathrm dx=4\zeta(2)\zeta(3)-9\zeta(5)\tag1$$
 

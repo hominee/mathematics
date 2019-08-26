@@ -28,7 +28,7 @@ $$
 \bigg[2\,\zeta\left(5\right) - \zeta\left(2\right)\zeta\left(3\right) \bigg]
 $$
 
-<!–-break-– 
+<!–-break-–!> 
 
 # Answer
 
