@@ -6,13 +6,13 @@ url                          : "https://homelyguy.github.io" # the base hostname
 
 blog:
   title                      : Math for fun
-  description                : Welcome everybody! Here is the place for Mathematics and Programming covering
-                               mathematical analysis and algorithmical programming. We are glad to see it may 
-                               of some help to somebody, Don not hesitate to cantact me if you have any problem.
+  description                : Welcome everybody! Here places My Mathematics Journals I write and explore in my University, covering 
+                               Calculus, Integrals, Algebra, Series Theory, Convergence, Real Analysis, Complex Analysis, Topology, Set Theory. We are glad to see it may 
+                               of some help to somebody. 
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
-  search_path                : # "yourgitusername.github.io"
+  search_path                :  "homelyguy.github.io"
                                # needed for searchbox in archive page
   hero_layout                : true # turn on hero layout for blog and posts
   hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
@@ -29,7 +29,7 @@ blog:
   author:
     fullname                  : HomelyGuy
   rss                       : true # generate RSS feed and show it's icon in header
-    # mail                      : bruceyytsh@outlook.com # change to your e-mail address
+     mail                      : bruceyuan0@protonmail.com # change to your e-mail address
   #twitter                   : HomelyGuy
   github                    : HomelyGuy
   #youtube                   : HomelyGuy

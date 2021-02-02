@@ -22,6 +22,6 @@ published: true
 
 This is the dock of programming a funny place for mathematics and programming. 
 
-You can follow us at GitHub [dockpro](https://github.com/homelyguy/)  
+You can follow us at GitHub [HomelyGuy](https://github.com/homelyguy/)  
 
 </div>
