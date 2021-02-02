@@ -40,4 +40,4 @@ $$
 (x_0-x_1)(x_0-x_2)(x_0-x_3)(x_0-x_4)(x_0-x_5) p'(x_0) = -7
 $$
 
-since $$-7$$ has only factor $$\pm 1, \pm 7$$, then $$p(x)$$ can not have integer root.
+since -7 has only factor $$\pm 1, \pm 7$$, then $$p(x)$$ can not have integer root.

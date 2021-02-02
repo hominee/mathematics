@@ -44,6 +44,7 @@ where $$ \epsilon _n $$ is small.
 Let $$ k = i+j $$ be a fixed number combined with equation $$\eqref{harmonic}$$, the question may take on good properties as  
 
 $$ 
+
 \begin{equation}
 \begin{aligned}
 \sum _{i=1} ^{ \infty } \sum _{j=1} ^{ \infty } \frac{ (-1)^{ i+j }}{ i+j } 

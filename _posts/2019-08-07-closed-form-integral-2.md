@@ -18,6 +18,7 @@ published: true
 # Question
 
 Show that :
+
 $$
 \int_{0}^{\Large\frac\pi2}
 {\ln^{2}\left(\vphantom{\large A}\cos\left(x\right)\right)

@@ -18,6 +18,7 @@ published: true
 # Question
 
 Show that :
+
 $$
 \int_0^{\infty}\frac{\operatorname{Li}_s(-x)}{x^{\alpha+1}}\mathrm dx
 = -\frac1{\alpha^s}\frac{\pi}{\sin(\pi \alpha)}

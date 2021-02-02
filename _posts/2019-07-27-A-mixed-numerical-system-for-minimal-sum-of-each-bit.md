@@ -5,8 +5,6 @@ tags:
   - numerical system
   - minimal sum
   - p-adic
-description: >
-  A mixed numerical system for minimal sum of each bit
 
 hero: https://source.unsplash.com/collection/145103/
 overlay: blue
@@ -33,7 +31,7 @@ I came across this problem in a websit called [codechef][codechef] which, person
 site. As simple it is the first sight, it may of interest to those who love mathematics and programming including
 me, thus this page is born. 
 
-Let's start with the very basic ideal that the numerical denotation of natrual number, for a $$p-$$adic number $$(x)_p$$
+Let's start with the very basic ideal that the numerical denotation of natrual number, for a $$p-$$adic number $$(x)_p $$
 
 $$
 \label{basic}
@@ -45,7 +43,8 @@ $$
 where $$ 0 \leq a_i \leq p-1 $$, and $$n$$ is finite.  
 With formula $$\eqref{basic}$$ we could assign each number a unique numeric denotation accordingly. Furthermore  
 
-$$\space$$ 
+$$
+\space$$ 
  
 $$ \textbf{Theorem 1} \label{theorem1}$$: $$  \Sigma _{i=0} ^n  a_i$$  reach  its  minimal for $$x$$ in p-adic system.
 

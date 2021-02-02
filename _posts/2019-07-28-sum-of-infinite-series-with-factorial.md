@@ -38,6 +38,7 @@ $$
 This question is the extention of formula $$\ref{trick}$$, since  
 
 $$
+
 \label{trick0} 
 \begin{equation}
 \frac{ n+2 }{ n!+(n+1)!+(n+2)! } = \frac{n+2}{n!( 1+ n+1 (n+1) (n+2) ) } = \frac{1}{n!(n+2)}   
