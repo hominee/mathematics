@@ -1,7 +1,7 @@
 # Base blog settings
 baseurl                      : "/mathematics" # the subpath of your site,                         # e.g. /blog/
                               # set to '' in case of hosting on GitHub
-url                          : "https://dockpro.github.io" # the base hostname & protocol for your site
+url                          : "https://homelyguy.github.io" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
@@ -25,17 +25,17 @@ blog:
   load_google_fonts          : 'Rubik:400,400italic,700,700italic'
 
 
-# Author info
-author:
-  fullname                  : dockpro
+    # Author info
+  author:
+    fullname                  : HomelyGuy
   rss                       : true # generate RSS feed and show it's icon in header
- # mail                      : bruceyytsh@outlook.com # change to your e-mail address
-  twitter                   : dockpro
-  github                    : dockpro
-  youtube                   : dockpro
- # stackoverflow             : stackoverflow-user-name
- # disqus                    : dactl # your disqus site name
- # google_analytics          : # 'UA-XXXXXXXX-X'
+    # mail                      : bruceyytsh@outlook.com # change to your e-mail address
+  #twitter                   : HomelyGuy
+  github                    : HomelyGuy
+  #youtube                   : HomelyGuy
+    # stackoverflow             : stackoverflow-user-name
+    # disqus                    : dactl # your disqus site name
+    # google_analytics          : # 'UA-XXXXXXXX-X'
   photo                     : "uploads/postname.jpg"
   photo2x                   : "uploads/postname.jpg"
 

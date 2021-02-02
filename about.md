@@ -22,7 +22,6 @@ published: true
 
 This is the dock of programming a funny place for mathematics and programming. 
 
-You can follow us at twitter [dockpro](https://twitter.com/dockpro)
-and at GitHub [dockpro](https://github.com/dockpro/)  
+You can follow us at GitHub [dockpro](https://github.com/homelyguy/)  
 
 </div>
