@@ -1,4 +1,4 @@
-## Welcome to Dock of Programming!
+## Welcome to My Palace!
 
 Mathematics Journal along with my University, Hope you will enjoy it.
 
