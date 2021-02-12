@@ -5,10 +5,10 @@ url                          : "https://homelyguy.github.io" # the base hostname
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : Math for fun
-  description                : Welcome everybody! Here places My Mathematics Journals I write and explore in my University, covering 
+  title                      : "Math for fun"
+  description                : "Welcome everybody! Here places My Mathematics Journals I write and explore in my University, covering 
                                Calculus, Integrals, Algebra, Series Theory, Convergence, Real Analysis, Complex Analysis, Topology, Set Theory. We are glad to see it may 
-                               of some help to somebody. 
+                               of some help to somebody. "
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
