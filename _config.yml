@@ -5,39 +5,37 @@ url                          : "https://homelyguy.github.io" # the base hostname
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : "Math for fun"
-  description                : "Welcome everybody! Here places My Mathematics Journals I write and explore in my University, covering 
-                               Calculus, Integrals, Algebra, Series Theory, Convergence, Real Analysis, Complex Analysis, Topology, Set Theory. We are glad to see it may 
-                               of some help to somebody. "
+  title                      : "Math for fun",
+  description                : "Welcome everybody! Here places My Mathematics Journals I write and explore in my University, covering Calculus, Integrals, Algebra, Series Theory, Convergence, Real Analysis, Complex Analysis, Topology, Set Theory. We are glad to see it may of some help to somebody. ",
 
 # Layout configuration
-  logo_path                  : "assets/img/dactl.svg" # path to logo file
-  search_path                :  "homelyguy.github.io"
+  logo_path                  : "assets/img/dactl.svg", # path to logo file
+  search_path                :  "homelyguy.github.io",
                                # needed for searchbox in archive page
-  hero_layout                : true # turn on hero layout for blog and posts
-  hero_placeholder           : "assets/img/generic_hero.jpg" # placeholder for hero image
-  excerpts                   : true # show excerpts instead of full post content on blog page
-  inline_footnotes           : true # enable/disable barefoot inline footnotes
-  titles_only                : false # show post titles only on main blog page
+  hero_layout                : true, # turn on hero layout for blog and posts
+  hero_placeholder           : "assets/img/generic_hero.jpg", # placeholder for hero image
+  excerpts                   : true, # show excerpts instead of full post content on blog page
+  inline_footnotes           : true, # enable/disable barefoot inline footnotes
+  titles_only                : false, # show post titles only on main blog page
 
 # Fonts
-  font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif'
-  load_google_fonts          : 'Rubik:400,400italic,700,700italic'
+  font                       : '"Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif',
+  load_google_fonts          : 'Rubik:400,400italic,700,700italic',
 
 
     # Author info
   author:
-    fullname                  : HomelyGuy
-  rss                       : true # generate RSS feed and show it's icon in header
-     mail                      : bruceyuan0@protonmail.com # change to your e-mail address
+  fullname                  : "HomelyGuy",
+  rss                       : true, # generate RSS feed and show it's icon in header
+  mail                      : bruceyuan0@protonmail.com, # change to your e-mail address
   #twitter                   : HomelyGuy
-  github                    : HomelyGuy
+  github                    : HomelyGuy,
   #youtube                   : HomelyGuy
     # stackoverflow             : stackoverflow-user-name
     # disqus                    : dactl # your disqus site name
     # google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/postname.jpg"
-  photo2x                   : "uploads/postname.jpg"
+  photo                     : "uploads/postname.jpg",
+  photo2x                   : "uploads/postname.jpg",
 
 
 
